@@ -22,7 +22,7 @@ Sebuah REST API sederhana yang dibuat menggunakan AdonisJS versi 5 dan PostgreSQ
 
 1.  **Clone repository ini:**
     ```bash
-    git clone <URL_GITHUB_ANDA>
+    git clone https://github.com/FarisAnugrah/chatbot-api.git
     ```
 
 2.  **Masuk ke direktori proyek:**
