@@ -1,0 +1,16 @@
+### Mengirim pertanyaan baru
+POST http://127.0.0.1:3333/questions
+Content-Type: application/json
+
+{
+  "question": "Halo, apa kabar?"
+}
+
+### Mengambil semua percakapan dengan pagination
+GET http://127.0.0.1:3333/conversation?page=1&limit=10
+
+### Mengambil detail percakapan (ganti {id} dengan ID asli)
+GET http://127.0.0.1:3333/conversation/11
+
+### Menghapus percakapan (ganti {id} dengan ID asli)
+DELETE http://127.0.0.1:3333/conversation/11
